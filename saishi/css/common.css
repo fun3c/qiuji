@@ -1,10 +1,18 @@
 *{margin: 0; padding: 0;}
+body{font-family:Helvetica;}
 a {
 	color: #333;
 	text-decoration: none;
 }
+ul{list-style-type: none;}
 .fb {
-	font-size: .75rem;
+	font-size: 0.7rem;
+}
+.c6 {
+	color: #666;
+}
+.ea5 {
+	color: #ea5513;
 }
 .response-img {
     max-width: 100%;
