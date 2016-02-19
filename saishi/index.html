@@ -52,25 +52,25 @@
     </div>
 	<script src="./lib/swiper/swiper-3.2.7.min.js"></script>
 	<script>
-    (function (doc, win) {
-    	var swiper = new Swiper('.swiper-container', {
-	        pagination: '.swiper-pagination',
-	        paginationClickable: true
-	    });
-        var docEl = doc.documentElement,
-                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
-                recalc = function () {
-                    var clientWidth = docEl.clientWidth;
-                    if (!clientWidth) return;
-                    var fontsize = 20 * (clientWidth / 320);
-                    fontsize = fontsize > 40 ? 40 : fontsize;
-                    docEl.style.fontSize = fontsize + 'px';
-                };
+	    (function (doc, win) {
+	    	var swiper = new Swiper('.swiper-container', {
+		        pagination: '.swiper-pagination',
+		        paginationClickable: true
+		    });
+	        var docEl = doc.documentElement,
+	                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	                recalc = function () {
+	                    var clientWidth = docEl.clientWidth;
+	                    if (!clientWidth) return;
+	                    var fontsize = 20 * (clientWidth / 320);
+	                    fontsize = fontsize > 40 ? 40 : fontsize;
+	                    docEl.style.fontSize = fontsize + 'px';
+	                };
 
-        if (!doc.addEventListener) return;
-        win.addEventListener(resizeEvt, recalc, false);
-        doc.addEventListener('DOMContentLoaded', recalc, false);
-    })(document, window);
+	        if (!doc.addEventListener) return;
+	        win.addEventListener(resizeEvt, recalc, false);
+	        doc.addEventListener('DOMContentLoaded', recalc, false);
+	    })(document, window);
 	</script>
 </body>
 </html>
