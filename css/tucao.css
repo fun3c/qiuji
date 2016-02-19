@@ -1,0 +1,86 @@
+html,body {
+	height: 100%;
+}
+body {
+	color: #fff;
+	background-color: #2d2d2d;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.content {
+	font-size: 26px;
+	line-height: 38px;
+	padding: 0 20px 20px 20px;
+}
+.logo-box {
+	width: 100%;
+	padding-top: 52px;
+	text-align: center;
+}
+
+.logo-box .txt {
+	color: red;
+}
+.po-btm-bar {
+	width: 100%;
+	padding: 5px 0;
+	background-color: #3d3d3d;
+}
+
+.logo-box .tt {
+	padding: 5px 0;
+	color: #ea5513;
+	font-size: 22px;
+}
+
+.po-btm-bar ul li {
+	padding: 5px 10px;
+	font-size: 24px;
+	border-bottom: 1px solid #666;
+	position: relative;
+}
+.po-btm-bar ul li:last-child {
+	border: 0;
+}
+.po-btm-bar ul li i {
+	display: inline-block;
+	margin: 5px 10px;
+	vertical-align: middle;
+}
+.po-btm-bar ul li span {
+	display: inline-block;
+}
+.po-btm-bar ul li .weibo {
+	width: 62px;
+	height: 55px;
+	background: url("../img/tucao/weibo@3x.png") no-repeat center center;
+	background-size: 100%;
+}
+.po-btm-bar ul li .wx {
+	width: 66px;
+	height: 60px;
+	background: url("../img/tucao/wx@3x.png") no-repeat center center;
+	background-size: 100%;
+}
+
+.po-rs-btn {
+	position: absolute;
+	right: 10px;
+	top: 15px;
+	width: 120.66666666666666px;
+	height: 42px;
+	line-height: 40px;
+	background-color: #ea5513;
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	border-radius: 4px;
+}
+.po-rs-btn b {
+	display: inline-block;
+	font-size: 26px;
+	margin-right: 10px;
+}

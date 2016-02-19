@@ -1,0 +1,42 @@
+html,body {
+	height: 100%;
+}
+.banner {
+	margin: 0 auto;
+}
+.list-content {
+	background-color: #222;
+	min-height: 100%;
+}
+.tab-panel {
+	width: 100%;
+}
+.tab-panel > li {
+	display: table-cell;
+	width: 1%;
+}
+.tab-panel > li a {
+	display: block;
+	text-align: center;
+	color: #fff;
+	height: 1.95rem;
+	line-height: 1.95rem;
+	margin: 0 10px;
+	font-size: .75rem;
+}
+
+.tab-panel > li.active a {
+	color: #d75016;
+	border-bottom: 0.15rem solid #d75016;
+}
+.tab-content {
+	background-color: #222;
+}
+.plate {
+	margin: 0.5rem;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.item1 {
+	padding: 0.45rem 1.875rem;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>球场坐标</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./lib/swiper/swiper-3.2.7.min.css">
+	<link rel="stylesheet" type="text/css" href="css/map.css">
+</head>
+<body>
+	<div class="content">
+		<!-- map -->
+		<div class="swiper-box">
+		    <div class="swiper-container">
+		        <div class="swiper-wrapper">
+		            <div class="swiper-slide">
+		            	<img src="./img/map/1.jpg" class="response-img">
+		            </div>
+		            <div class="swiper-slide">
+						<img src="./img/map/2.jpg" class="response-img">
+		            </div>
+		            <div class="swiper-slide">
+						<img src="./img/map/3.jpg" class="response-img">
+		            </div>
+		            <div class="swiper-slide">
+						<img src="./img/map/4.jpg" class="response-img">
+		            </div>
+		            <div class="swiper-slide">
+						<img src="./img/map/5.jpg" class="response-img">
+		            </div>
+		        </div>
+		        <!-- Add Pagination -->
+		        <div class="swiper-pagination"></div>
+		    </div>
+	    </div>
+	    <!-- /map -->
+	    <div class="ball-park">
+	    	<div class="addr">
+				<h3 class="short">北京市五棵松HiPack篮球场</h3>
+				<div class="long">
+					<span>北京市海淀区五棵松万事达中心东侧广场北京市海淀区五棵松万事达中心东侧广场</span> 
+					<span class="m"><i></i>1489米</span>
+				</div>
+				<span class="gps-btn"></span>
+	    	</div>
+	    	<div class="info-box">
+		    	<div class="info-item ball-info">
+		    		<ul>
+		    			<li>
+		    				<b class="tt">联系电话</b>
+		    				<span class="phone">010-888888887</span>
+		    			</li>
+		    			<li>
+		    				<b class="tt">开放时间</b>
+		    				<span>周一至周五 09:00-20:00</span>
+		    			</li>
+		    			<li>
+		    				<b class="tt">收费标准</b>
+		    				<span>15元/人 不限时 室内200元4小时包场</span>
+		    			</li>
+		    			<li>
+		    				<b class="tt">球场特色</b>
+		    				<div class="item">
+		    					<span>收费洗浴收费洗浴收费洗浴</span>
+			    				<span>柜子租用</span>
+			    				<span>器械维护</span>
+			    				<span>饮料售卖</span>
+			    				<span>器械出租</span>
+		    				</div>
+		    			</li>
+		    		</ul>
+		    	</div>
+		    	<div class="info-item activity">
+		    		<div class="title"><b>球场活动</b></div>
+		    		<div class="con">2015韦德中国行 北京东单站</div>
+		    		<a href="#" class="more"></a>
+		    	</div>
+		    	<div class="info-item ball-desc">
+		    		<div class="title"><b>球场简介</b></div>
+		    		<p>球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介球场简介</p>
+		    	</div>
+	    	</div>
+	    </div>
+	</div>
+<script src="./js/layout.js"></script>
+<script src="./js/zepto.min.js"></script>
+<script src="./lib/swiper/swiper-3.2.7.min.js"></script>
+<script>
+	(function() {
+		var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true
+	    });
+	   	$('.gps-btn').on('tap',function() {
+	   		alert('导航');
+	   		//...
+	   	});
+	})();
+</script>
+</body>
+</html>

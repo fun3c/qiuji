@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>赛事</title>
+	<link rel="stylesheet" type="text/css" href="./lib/swiper/swiper-3.2.7.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+	<div class="banner">
+		<div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+	            	<img src="./img/t1.jpg" class="response-img">
+	            </div>
+	            <div class="swiper-slide">
+	            	<img src="./img/t1.jpg" class="response-img">
+	            </div>
+	            <div class="swiper-slide">
+	            	<img src="./img/t1.jpg" class="response-img">
+	            </div>
+	            <div class="swiper-slide">
+	            	<img src="./img/t1.jpg" class="response-img">
+	            </div>
+	            <div class="swiper-slide">
+	            	<img src="./img/t1.jpg" class="response-img">
+	            </div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	    </div>
+	</div>
+    <div class="list-content">
+    	<ul class="tab-panel">
+    		<li class="active"><a href="#">赛程</a></li>
+    		<li><a href="#">精选</a></li>
+    	</ul>
+    
+	    <div class="tab-content">
+	    	<section class="plate item1">
+	    		<p class="fb">2015国际篮球世界三对三大师赛</p>
+	    	</section>
+	    	<section class="plate item1">
+	    		<p class="fb">2015国际篮球世界三对三大师赛</p>
+	    	</section>
+	    	<section class="plate item1">
+	    		<p class="fb">2015国际篮球世界三对三大师赛</p>
+	    	</section>
+	    </div>
+    </div>
+	<script src="./lib/swiper/swiper-3.2.7.min.js"></script>
+	<script>
+    (function (doc, win) {
+    	var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true
+	    });
+        var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    var fontsize = 20 * (clientWidth / 320);
+                    fontsize = fontsize > 40 ? 40 : fontsize;
+                    docEl.style.fontSize = fontsize + 'px';
+                };
+
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+	</script>
+</body>
+</html>
