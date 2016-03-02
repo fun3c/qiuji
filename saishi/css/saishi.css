@@ -42,7 +42,9 @@ html,body {
 .item1 {
 	padding: 0.4rem;
 }
-
+.item1 .fb {
+	0.6rem;
+}
 .item1 .adress {
 	color: #666;
 	padding-top: 3px;
@@ -97,8 +99,8 @@ html,body {
 }
 .item4 li > span.badge img {
 	display: inline-block;
-	width: 2.55rem;
-	height: 2.55rem;
+	width: 2.5rem;
+	height: 2.5rem;
 	border: 1px solid #333;
 	border-radius: 50%;
 	padding: 1px;
@@ -106,10 +108,11 @@ html,body {
 .item4 li > span .name {
 	display: inline-block;
 	width: 100%;
+	font-size: 0.6rem;
 }
 .item4 li > span.score > b {
 	display: inline-block;
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 }
 .item4 li > span.score > b:nth-child(2) {
 	color: #999;
