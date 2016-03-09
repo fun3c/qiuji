@@ -99,8 +99,8 @@ html,body {
 }
 .item4 li > span.badge img {
 	display: inline-block;
-	width: 2.5rem;
-	height: 2.5rem;
+	width: 2.375rem;
+	height: 2.375rem;
 	border: 1px solid #333;
 	border-radius: 50%;
 	padding: 1px;
