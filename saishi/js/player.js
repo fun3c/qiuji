@@ -1,7 +1,5 @@
 $(function() {
-	var /*$vList = $('.v-list'),
-		$li = $vList.find('li'),*/
-		$videoBox = $('.player-box'),
+	var $videoBox = $('.player-box'),
 		$angleBox = $('.angle-box'),
 		$angleLi = $angleBox.find('li'),
 		$myVideo = $('#my-video'),

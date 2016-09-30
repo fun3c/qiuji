@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>分享视频h5</title>
+	<link rel="stylesheet" type="text/css" href="./lib/swiper/swiper-3.2.7.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/common.css">
+	<link rel="stylesheet" type="text/css" href="./css/share.css">
+</head>
+<body>
+	<div class="container">
+		<div class="video">
+			<div class="player-box">
+				<div id="my-video" data-url="./img/JzMSLrpXYks8hUbOvjyMfw__.mp4" data-index="0">
+					<img id="video-img" src="./img/player.jpg">
+				</div>
+				<div class="loading"></div>
+				<div class="player-controls">
+					<div class="play-btn"></div>
+					<div class="stime">00:00</div>
+					<div class="timeupdate"> <b></b>
+						<span></span>
+					</div>
+					<div class="etime">00:00</div>
+					<div class="full-screen"></div>
+				</div>
+			</div>
+			<div class="txt">
+				<p>测试标题测试标题测试标题测试标题测试标题测试标题测试标题测试标题测试标题测试标题
+					<span class="tag">#标签</span>
+				</p>
+				<div class="intro-box">
+					<img src="./img/sd.gif" class="pic">
+					<div class="tcon">
+						<div class="team-name">球记－你打球我记录 <i>V</i></div>
+						<div class="time">2016-9-2</div>
+					</div>
+					<div class="zan">99999</div>
+				</div>
+			</div>
+		</div>
+		
+		<section class="plate item5">
+			<div class="tit">
+				<span>评论 9999</span>
+				<span class="c6">播放数 1245</span>
+			</div>
+			<ul class="msg-list">
+				<li>
+					<img src="./img/v1.jpg" class="user-pic">
+					<div class="msg-box">
+						<div class="user-name">jasime</div>
+						<div class="time">刚刚</div>
+						<div class="content">
+							<span class="reply">回复<b class="ea5">鹏哥好NB</b>：</span>
+							测试内容测试内容测试内容测试内容测试内容测试内容测试内容
+						</div>
+					</div>
+				</li>
+				<li>
+					<img src="./img/v1.jpg" class="user-pic">
+					<div class="msg-box">
+						<div class="user-name">鹏哥好NB</div>
+						<div class="time">半小时前</div>
+						<div class="content">测试内容测试内容测试内容测试内容测试内容测试内容测试内容</div>
+					</div>
+				</li>
+				<li>
+					<img src="./img/v1.jpg" class="user-pic">
+					<div class="msg-box">
+						<div class="user-name">summy</div>
+						<div class="time">昨天</div>
+						<div class="content">测试内容测试内容测试内容测试内容测试内容测试内容测试内容</div>
+					</div>
+				</li>
+				<li>
+					<img src="./img/v1.jpg" class="user-pic">
+					<div class="msg-box">
+						<div class="user-name">hahaha</div>
+						<div class="time">2016-9-2</div>
+						<div class="content">测试内容测试内容测试内容测试内容测试内容测试内容测试内容</div>
+					</div>
+				</li>
+			</ul>
+
+			<div class="load-more">
+				<a href="javascript:;">打开球技查看更多评论</a>
+			</div>
+		</section>
+		
+
+		<section class="plate sub-video">
+			<div class="title"> TA 的更多视频 </div>
+			<ul class="v-list">
+				<li>
+					<a href="#">
+						<img src="./img/v1.jpg">
+						<div class="txt">TA的视频TA的视频TA的视频视频视频视频</div>
+						<div class="times">播放：20201次</div>
+						<div class="play-info">
+							<span class="total">03:23</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="./img/v1.jpg">
+						<div class="txt">TA的视频TA的视频TA</div>
+						<div class="times">播放：20201次</div>
+						<div class="play-info">
+							<span class="total">03:23</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="./img/v1.jpg">
+						<div class="txt">TA的视频TA的视频TA的视频视频视频视频</div>
+						<div class="times">播放：20201次</div>
+						<div class="play-info">
+							<span class="total">03:23</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="./img/v1.jpg">
+						<div class="txt">TA的视频TA的视频TA的视频视频视频视频</div>
+						<div class="times">播放：20201次</div>
+						<div class="play-info">
+							<span class="total">03:23</span>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</section>
+
+		<div class="po-btm-bar">
+			<div class="logo"></div>
+			<div class="txt">
+				<h3>球记</h3>
+				<div>你打球，我记录</div>
+			</div>
+			<div class="po-rs-btn"><a href="#">立即下载</a></div>
+		</div>
+	</div>
+
+	<script src="./js/zepto.min.js"></script>
+	<script src="./js/player.js"></script>
+	<script>
+	    (function (doc, win) {
+	        var docEl = doc.documentElement,
+	                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+	                recalc = function () {
+	                    var clientWidth = docEl.clientWidth;
+	                    if (!clientWidth) return;
+	                    var fontsize = 20 * (clientWidth / 320);
+	                    fontsize = fontsize > 40 ? 40 : fontsize;
+	                    docEl.style.fontSize = fontsize + 'px';
+	                };
+
+	        if (!doc.addEventListener) return;
+	        win.addEventListener(resizeEvt, recalc, false);
+	        doc.addEventListener('DOMContentLoaded', recalc, false);
+	    })(document, window);
+	</script>
+</body>
+</html>

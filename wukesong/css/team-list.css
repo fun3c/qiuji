@@ -1,0 +1,51 @@
+.plate-module .tit {
+    position: relative;
+}
+.plate-module .font-big {
+    font-size: 1.1rem;
+}
+.plate-module .tit > span:last-child {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+.plate-table .tit {
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+.plate-table > ul {
+    width: 100%;
+    display: table;
+}
+.plate-table li {
+    float: left;
+    width: 50%;
+    height: 8.4rem;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.plate-table li:nth-child(1),
+.plate-table li:nth-child(2), {
+    border-top: 0;
+}
+.plate-table li:last-child {
+    border-bottom: 0;
+}
+.plate-table li .block-box {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.plate-table li:nth-child(2n+1) .block-box {
+    border-right: 1px solid #ccc;
+}
+.block-box img {
+    display: inline-block;
+    width: 4.2rem;
+    height: 4.2rem;
+    border: 1px solid #333;
+    border-radius: 50%;
+    padding: 1px;
+    margin: 1.5rem 0 0.5rem 0;
+}

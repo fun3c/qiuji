@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>精彩视频</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./js/lib/swiper/swiper-3.2.7.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/video.css">
+</head>
+
+<body>
+    <div class="wraper">
+        <ul class="tabs">
+            <li>
+                <a href="">技术统计</a>
+            </li>
+            <li class="active">
+                <a href="">精彩视频</a>
+            </li>
+        </ul>
+
+        <div class="video">
+            <div class="player-box">
+                <div id="my-video" data-url="./images/video/JzMSLrpXYks8hUbOvjyMfw__.mp4" data-index="0">
+                    <img id="video-img" src="./images/video/player.jpg">
+                </div>
+                <div class="loading"></div>
+                <div class="player-controls">
+                    <div class="play-btn"></div>
+                    <div class="stime">00:00</div>
+                    <div class="timeupdate"> <b></b>
+                        <span></span>
+                    </div>
+                    <div class="etime">00:00</div>
+                    <div class="full-screen"></div>
+                </div>
+            </div>
+        </div>
+
+        <section class="plate plate-module">
+            <div class="tit">
+                <span class="font-big">总决赛</span>
+                <span>2014年11月20日</span>
+            </div>
+            <ul>
+                <li>
+                    <span class="badge">
+                        <img src="./images/sd.gif">
+                        <a href="#" class="name ea5">abnde ds</a>
+                    </span>
+                    <span class="score">
+                        <b class="color-grey-1 ea5">110</b>
+                        <b>:</b>
+                        <b class="color-grey-1">95</b>
+                    </span>
+                    <span class="badge">
+                        <img src="./images/sd.gif">
+                        <a href="#" class="name">一三四五六</a>
+                    </span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="plate plate-video">
+            <div class="topic font-big">赛事奖金介绍</div>
+            <ul class="v-list">
+                <li data-index="0">
+                    <img src="./images/video/v1.jpg">
+                    <div class="v-content">
+                        <div class="item1">
+                            <img src="./images/video/v1.jpg">
+                            <span>我是阿正</span>
+                            <span class="tag">MV</span>
+                        </div>
+                        <div class="item2">这添球手感真好！！</div>
+                        <div class="item3">10月22日 10:22</div>
+                    </div>
+                </li>
+                <li data-index="1">
+                    <img src="./images/video/v1.jpg">
+                    <div class="v-content">
+                        <div class="item1">
+                            <img src="./images/video/v1.jpg">
+                            <span>我是阿正</span>
+                            <span class="tag">慢动作</span>
+                        </div>
+                        <div class="item2">这添球手感真好！！</div>
+                        <div class="item3">10月22日 10:22</div>
+                    </div>
+                </li>
+                <li data-index="3">
+                    <img src="./images/video/v1.jpg">
+                    <div class="v-content">
+                        <div class="item1">
+                            <img src="./images/video/v1.jpg">
+                            <span>我是阿正</span>
+                        </div>
+                        <div class="item2">这添球手感真好！！</div>
+                        <div class="item3">10月22日 10:22</div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </div>
+    <script>
+        var DATA = {
+          "videoList": [
+                {
+                  "vurl":['http://mvvideo2.meitudata.com/55b9d7ae3f9516688.mp4'],
+                  "vimg": 'http://mvimg2.meitudata.com/55b9d7ae109a38428.jpg!thumb320',
+                  "index": 0
+                },
+                {
+                  "vurl":['http://mvvideo1.meitudata.com/54ccbe97ccc1d6480.mp4'],
+                  "vimg": 'http://mvimg1.meitudata.com/54ccbe97acef84385.jpg!thumb320',
+                  "index": 1
+                },
+                {
+                  "vurl":['http://mvvideo1.meitudata.com/55ac904cb74648525.mp4'],
+                  "vimg": 'http://mvimg2.meitudata.com/55b9d7ae109a38428.jpg!thumb320',
+                  "index": 2
+                },
+                {
+                  "vurl":['images/movie.ogg'],
+                  "vimg": 'http://mvimg2.meitudata.com/55b9d7ae109a38428.jpg!thumb320',
+                  "index": 3
+                }
+            ]
+        };
+    </script>
+    <script src="./js/layout.js"></script>
+    <script src="./js/lib/swiper/swiper-3.2.7.min.js"></script>
+    <script src="./js/lib/zepto.min.js"></script>
+    <script src="./js/video.js"></script>
+</body>
+
+</html>

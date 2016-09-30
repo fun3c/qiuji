@@ -1,0 +1,149 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'anywhere',
+1 verbose cli   '-g' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.1
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'anywhere', null ]
+7 verbose cache add spec anywhere
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'anywhere',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'anywhere',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed anywhere@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for anywhere
+11 info addNameTag [ 'anywhere', 'latest' ]
+12 silly mapToRegistry name anywhere
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/anywhere
+16 verbose addNameTag registry:https://registry.npmjs.org/anywhere not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/anywhere
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 16:04:23
+20 verbose request id 8699270f13d8ae2c
+21 verbose etag "5J89AG9X028J2GOFXROL9UCT1"
+22 http request GET https://registry.npmjs.org/anywhere
+23 http 304 https://registry.npmjs.org/anywhere
+24 verbose headers { date: 'Wed, 02 Mar 2016 08:04:09 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   etag: '"5J89AG9X028J2GOFXROL9UCT1"',
+24 verbose headers   age: '27',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-nrt6129-NRT',
+24 verbose headers   'x-cache': 'HIT',
+24 verbose headers   'x-cache-hits': '1',
+24 verbose headers   'x-timer': 'S1456905849.244846,VS0,VE0',
+24 verbose headers   vary: 'Accept' }
+25 silly get cb [ 304,
+25 silly get   { date: 'Wed, 02 Mar 2016 08:04:09 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     etag: '"5J89AG9X028J2GOFXROL9UCT1"',
+25 silly get     age: '27',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-nrt6129-NRT',
+25 silly get     'x-cache': 'HIT',
+25 silly get     'x-cache-hits': '1',
+25 silly get     'x-timer': 'S1456905849.244846,VS0,VE0',
+25 silly get     vary: 'Accept' } ]
+26 verbose etag https://registry.npmjs.org/anywhere from cache
+27 verbose get saving anywhere to /Users/zhao/.npm/registry.npmjs.org/anywhere/.cache.json
+28 silly addNameTag next cb for anywhere with tag latest
+29 silly addNamed anywhere@1.2.0
+30 verbose addNamed "1.2.0" is a plain semver version for anywhere
+31 silly cache afterAdd anywhere@1.2.0
+32 verbose afterAdd /Users/zhao/.npm/anywhere/1.2.0/package/package.json not in flight; writing
+33 verbose afterAdd /Users/zhao/.npm/anywhere/1.2.0/package/package.json written
+34 silly install resolved [ { name: 'anywhere',
+34 silly install resolved     version: '1.2.0',
+34 silly install resolved     description: 'Run static file server anywhere',
+34 silly install resolved     main: 'index.js',
+34 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+34 silly install resolved     bin: { anywhere: './bin/anywhere' },
+34 silly install resolved     keywords: [ 'Static', 'file', 'server', 'Assets' ],
+34 silly install resolved     author: { name: 'Jackson Tian' },
+34 silly install resolved     license: 'MIT',
+34 silly install resolved     dependencies:
+34 silly install resolved      { connect: '3.1.1',
+34 silly install resolved        'serve-index': '1.2.0',
+34 silly install resolved        'serve-static': '1.5.3',
+34 silly install resolved        minimist: '~0.1.0' },
+34 silly install resolved     repository:
+34 silly install resolved      { type: 'git',
+34 silly install resolved        url: 'git://github.com/JacksonTian/anywhere.git' },
+34 silly install resolved     bugs: { url: 'https://github.com/JacksonTian/anywhere/issues' },
+34 silly install resolved     homepage: 'https://github.com/JacksonTian/anywhere',
+34 silly install resolved     gitHead: '01ad8b54a9fde74937b21016df799ceccafd7b57',
+34 silly install resolved     _id: 'anywhere@1.2.0',
+34 silly install resolved     _shasum: '650bb72759513092a8655c35f2c7b9563a644949',
+34 silly install resolved     _from: 'anywhere@latest',
+34 silly install resolved     _npmVersion: '2.9.0',
+34 silly install resolved     _nodeVersion: '2.0.0',
+34 silly install resolved     _npmUser: { name: 'jacksontian', email: 'shyvo1987@gmail.com' },
+34 silly install resolved     maintainers: [ [Object] ],
+34 silly install resolved     dist:
+34 silly install resolved      { shasum: '650bb72759513092a8655c35f2c7b9563a644949',
+34 silly install resolved        tarball: 'http://registry.npmjs.org/anywhere/-/anywhere-1.2.0.tgz' },
+34 silly install resolved     directories: {},
+34 silly install resolved     _resolved: 'https://registry.npmjs.org/anywhere/-/anywhere-1.2.0.tgz',
+34 silly install resolved     readme: 'ERROR: No README data found!' } ]
+35 info install anywhere@1.2.0 into /usr/local/lib
+36 info installOne anywhere@1.2.0
+37 verbose installOne of anywhere to /usr/local/lib not in flight; installing
+38 verbose lock using /Users/zhao/.npm/_locks/anywhere-9abbb94a7c01d27f.lock for /usr/local/lib/node_modules/anywhere
+39 silly install write writing anywhere 1.2.0 to /usr/local/lib/node_modules/anywhere
+40 verbose unbuild lib/node_modules/anywhere
+41 silly gentlyRm /usr/local/lib/node_modules/anywhere is being purged from base /usr/local
+42 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/anywhere
+43 verbose tar unpack /Users/zhao/.npm/anywhere/1.2.0/package.tgz
+44 verbose tar unpacking to /usr/local/lib/node_modules/anywhere
+45 silly gentlyRm /usr/local/lib/node_modules/anywhere is being purged
+46 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/anywhere
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 error tar.unpack untar error /Users/zhao/.npm/anywhere/1.2.0/package.tgz
+49 verbose unlock done using /Users/zhao/.npm/_locks/anywhere-9abbb94a7c01d27f.lock for /usr/local/lib/node_modules/anywhere
+50 verbose fstream_path /usr/local/lib/node_modules/anywhere
+51 verbose fstream_type Directory
+52 verbose fstream_class DirWriter
+53 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/anywhere'
+53 verbose stack     at Error (native)
+54 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+54 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+54 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+55 verbose cwd /Users/zhao/lz/qiuji/saishi/css
+56 error Darwin 14.4.0
+57 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "anywhere" "-g"
+58 error node v4.3.1
+59 error npm  v2.14.12
+60 error path /usr/local/lib/node_modules/anywhere
+61 error code EACCES
+62 error errno -13
+63 error syscall mkdir
+64 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/anywhere'
+64 error     at Error (native)
+64 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/anywhere']
+64 error   errno: -13,
+64 error   code: 'EACCES',
+64 error   syscall: 'mkdir',
+64 error   path: '/usr/local/lib/node_modules/anywhere',
+64 error   fstream_type: 'Directory',
+64 error   fstream_path: '/usr/local/lib/node_modules/anywhere',
+64 error   fstream_class: 'DirWriter',
+64 error   fstream_stack:
+64 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+64 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+64 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+65 error Please try running this command again as root/Administrator.
+66 verbose exit [ -13, true ]
+67 verbose unbuild lib/node_modules/anywhere
+68 silly gentlyRm /usr/local/lib/node_modules/anywhere is being purged from base /usr/local
+69 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/anywhere

@@ -1,0 +1,55 @@
+.plate .topic {
+    padding: 1rem 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #ccc;
+}
+.plate > .con {
+    line-height: 1.4rem;
+}
+.item-title {
+    color: #fff;
+    font-size: 1.25rem;
+    padding-left: 1rem;
+    font-weight: normal;
+}
+.thead {
+    width: 100%;
+}
+.thead li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 0.8rem 0;
+}
+
+.table-1 td {
+    width: 25%;
+    padding: 0.8rem;
+    text-align: center;
+    line-height: 1.4rem;
+    position: relative;
+}
+.table-1 tr:first-child td {
+    border-top: 1px solid #ccc;
+}
+.other {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.table-2 th {
+    font-size: 1.25rem;
+}
+.table-2 th,
+.table-2 td {
+    padding: 0.8rem;
+    text-align: center;
+    line-height: 1.4rem;
+}
+.table-2 td {
+    border-top: 1px solid #ccc;
+}

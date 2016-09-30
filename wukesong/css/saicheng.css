@@ -1,0 +1,83 @@
+.tabs {
+    width: 100%;
+}
+
+.tabs > li {
+    display: table-cell;
+    width: 1%;
+    text-align: center;
+    color: #fff;
+    padding: 0 1rem;
+}
+.tabs > li > span {
+    display: block;
+    padding: 1rem;
+}
+.tabs > li.active > span {
+    color: #d75016;
+    border-bottom: 3px solid #d75016;
+}
+
+.plate-module .tit {
+    position: relative;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.plate-module .font-big {
+    font-size: 1.22rem;
+}
+.plate-module .tit > span:last-child {
+    position: absolute;
+    right: .5rem;
+    top: 1rem;
+}
+.plate-module li {
+    clear: both;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+}
+.plate-module li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.plate-module li > a > span {
+    width: 33%;
+    height: 100%;
+    float: left;
+    display: block;
+}
+.plate-module li:last-child {
+    border-bottom: none;
+}
+
+.plate-module li span.badge img {
+    display: inline-block;
+    width: 4.2rem;
+    height: 4.2rem;
+    border: 1px solid #333;
+    border-radius: 50%;
+    padding: 1px;
+    margin: 1.5rem 0 0.4rem 0;
+}
+.plate-module li span .name {
+    display: block;
+    width: 100%;
+}
+.plate-module li span.score {
+    margin-top: 2.8rem;
+}
+.plate-module li span.score b {
+    display: inline-block;
+    font-size: 2rem;
+}
+.plate-module li span.score b:nth-child(2) {
+    color: #999;
+    padding: 0 2px;
+}
+.plate-module li .fixture {
+    padding-top: 1.3rem;
+    color: #616161;
+}

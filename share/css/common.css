@@ -1,0 +1,123 @@
+*{margin: 0; padding: 0;}
+body{font-family:Helvetica;}
+a {
+	color: #333;
+	text-decoration: none;
+}
+ul{list-style-type: none;}
+.fb {
+	font-size: 0.7rem;
+}
+.c6 {
+	color: #999;
+}
+.ea5 {
+	color: #ea5513;
+}
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+}
+.response-img {
+    max-width: 100%;
+}
+.swiper-container
+{
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display:         flex;
+
+    text-align: center;
+
+    background: #fff;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+}
+.swiper-pagination
+{
+    -webkit-transition: none;
+            transition: none;
+}
+.swiper-container-horizontal > .swiper-pagination
+{
+    bottom: 0.45rem;
+}
+.swiper-pagination-bullet
+{
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: #fff;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active
+{
+    background-color: #ed5514;
+}
+
+.plate .tit {
+    padding: 0.5rem;
+    position: relative;
+    font-size: 0.7rem;
+}
+.plate .tit > span:last-child {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.po-btm-bar {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #eee;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+.po-btm-bar .logo {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin: 0px 10px 0 16px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.po-btm-bar .txt {
+    float: left;
+    margin-top: 5px;
+}
+.po-btm-bar .txt > h3 {
+    padding: 0;
+    margin-bottom: 8px;
+}
+.po-btm-bar .po-rs-btn {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.6rem;
+    padding: 5px;
+}
+.po-btm-bar .po-rs-btn a {
+    display: inline-block;
+    color: #fff;
+    padding: 0.5rem 1.2rem;
+    background-color: #ea5513;
+    text-align: center;
+}
+
+
